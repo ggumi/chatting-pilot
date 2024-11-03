@@ -3,6 +3,8 @@ import "./MessageContainer.css";
 import { Container } from "@mui/system";
 
 const MessageContainer = ({ messageList, user }) => {
+  // console.log('user==>',user)
+  // console.log('messageList==>',messageList)
   return (
     <div>
       {messageList.map((message, index) => {
